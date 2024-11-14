@@ -1,3 +1,13 @@
+## Para levantar el proyecto realizar los siguientes pasos:
+
+1. Ejecutar el comando `composer install`
+2. Instalar modulos de node `npm install`
+3. Copiar las variables de entorno del archivo .env.example
+4. Crear un archivo .env a la raiz del proyecto y pegar las variables del archivo .env.example
+5. Configurar la conexión de la base de datos con las credenciales correspondientes
+6. Generar una clave para el proyecto con el coomando `php artisan key:generate`
+7. Crear la migración correspondiente
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
